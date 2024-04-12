@@ -17,7 +17,8 @@
             Get Started</a></li>
           <li><a class="nav-link" href="#Syntax">Syntax</a></li>
           <li><a class="nav-link" href="#Variables">Variables</a></li>
-          <li><a class="nav-link" href="#Data_Types">Data Types</a></li>
+          <li><a class="nav-link" href="#Comments">Comments</a></li>
+          <li><a class="nav-link" href="#References">References</a></li>
         </ul>
     </nav>
     <main id="main-doc">
@@ -123,11 +124,76 @@
             <header>
                 Variables
             </header>
+            <p>Variables are containers for storing data values. In Python, 
+            there is no command for declaring a variable. A variable is 
+            created the moment you first assign a value to it:
+            <pre>
+                <code>
+                    x = 1
+                    y = "Doe"
+                    print(x)
+                    print(y)
+                </code>
+            </pre>
+            </p>
+            <p>Variables do not need to be declared with any particular type,
+            and can even change type after they have been set:
+            <pre>
+                <code>
+                    x = 4
+                    x = "Sally"
+                    print(x)
+                </code>
+            </pre>    
+            </p>
+            <p>If you want to specify the data type of a variable,
+            this can be done with casting:
+            <pre>
+                <code>
+                    x = str(3)
+                    y = int(3)
+                    z = float(3)
+                </code>
+            </pre>
+            </p>
+            <p>Variable names are case-sensitive:
+            <pre>
+                <code>
+                    a = 4
+                    A = "Sally"
+                </code>
+            </pre>
+            </p>
         </section>
-        <section class="main-section" id="Data_Types">
+        <section class="main-section" id="Comments">
             <header>
-                Data Types
+                Comments
             </header>
+            <p>Comments can be used to explain Python code,
+            make it more readable, and to prevent execution
+            when testing code. Comments starts with
+            <strong>#</strong> and Python will ignore them:
+            <pre>
+                <code>
+                    #This is a comment
+                    print("Hello, World!")
+                </code>
+            </pre>
+            </p>
+        </section>
+        <section class="main-section" id="References">
+            <header>
+                References
+            </header>
+            <ul>
+                <li>All the documentation in this page is taken from
+                <a href="https://www.w3schools.com/python/default.asp"
+                target="_blank">W3schools</a>    
+                </li>
+                <li>For a more in-depth guide, check out the official
+                <a href="https://www.python.org/doc/" >Python</a> documentation
+                </li>
+            </ul>
         </section>
     </main>
 </body>
