@@ -85,7 +85,7 @@ code {
     body {
         flex-direction: row;
     }
-    #navnbar {
+    #navbar {
         width: 300px;
         position: fixed;
         height: 100%;
@@ -100,4 +100,19 @@ code {
 
 .nav-link {
     text-align: center;
+}
+
+#Introduction p:first-of-type, #Introduction p:last-of-type{
+    text-align: center;
+}
+
+#Introduction ul, #References ul{
+    max-width: 550px;
+    margin: 0 auto 50px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+#Introduction li, #References li {
+    margin: 16px 0;
 }
